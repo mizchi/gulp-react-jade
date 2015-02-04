@@ -1,0 +1,17 @@
+{
+  "name": "gulp-react-jade",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "react": "^0.12.2",
+    "react-jade": "^2.3.0",
+    "replace-ext": "0.0.1",
+    "through2": "^0.6.3"
+  }
+}

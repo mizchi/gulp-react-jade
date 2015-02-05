@@ -8,9 +8,9 @@
   },
   "author": "",
   "license": "ISC",
-  "devDependencies": {
+  "dependencies": {
     "react": "^0.12.2",
-    "react-jade": "^2.3.0",
+    "react-jade": "mizchi/react-jade",
     "replace-ext": "0.0.1",
     "through2": "^0.6.3"
   }

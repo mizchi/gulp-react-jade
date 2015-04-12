@@ -8,7 +8,7 @@
 
   replaceExt = require('replace-ext');
 
-  module.exports = function() {
+  module.exports = function(opt) {
     var stream;
     stream = through.obj(function(file, enc, callback) {
       var templateString;
@@ -16,7 +16,7 @@
         this.push(file);
         return callback();
       } else if (file.isBuffer()) {
-        templateString = jade.compileClient(file.contents.toString()).toString();
+        templateString = jade.compileClient(file.contents.toString(), opt).toString();
         file.contents = new Buffer('module.exports = ' + templateString);
         file.path = replaceExt(file.path, '.js');
         this.push(file);

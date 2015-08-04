@@ -3,7 +3,7 @@
 For [jadejs/react-jade](https://github.com/jadejs/react-jade "jadejs/react-jade")
 
 ```
-npm install mizchi/gulp-react-jade
+npm install @mizchi/gulp-react-jade
 ```
 
 ## Example

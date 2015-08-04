@@ -10,7 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "react": "^0.12.2",
-    "react-jade": "mizchi/react-jade",
+    "react-jade": "mizchi/react-jade#9ea4ea78dddd2e194ff8b693b80563a48216ccee",
     "replace-ext": "0.0.1",
     "through2": "^0.6.3"
   }

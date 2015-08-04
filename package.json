@@ -1,6 +1,6 @@
 {
-  "name": "gulp-react-jade",
-  "version": "1.0.2",
+  "name": "@mizchi/gulp-react-jade",
+  "version": "1.0.3",
   "description": "",
   "main": "index.js",
   "scripts": {
